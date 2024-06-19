@@ -5,9 +5,9 @@
 #define PLAYER1 A1
 #define SPEED A2
 
-#define DIN 11
-#define CS 10
-#define CLK 9
+#define DIN 10
+#define CS 9
+#define CLK 11
 
 Display display(DIN, CS, CLK, 2, 3);
 
